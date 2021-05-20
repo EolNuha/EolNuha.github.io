@@ -147,7 +147,7 @@ div.box-name {text-align: center;padding: 10px 20px;}
 GET IN TOUCH section styles
 
 */
-
+.fa-arrow-down {display: none;}
 .contact-border-bottom {display: none;}
 .contact-me-column{float: left; width: 50%; padding: 15px 5px;}
 .job-pic-column{float: left; width: 30%; padding: 15px 5px;}
@@ -160,6 +160,7 @@ GET IN TOUCH section styles
     .job-dis-column{width: 100%;}
     .contact-border-right{display: none;}
     .contact-border-bottom{display: block;}
+    .fa-arrow-down {display: block;}
 }
 .contact-me-column > a{text-decoration: none;}
 .fa {color: #0099ff; padding: 5px; font-size: large;} /* fa fa icon style */
