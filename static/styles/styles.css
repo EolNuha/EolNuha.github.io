@@ -155,4 +155,6 @@ GET IN TOUCH section styles
 
   /* footer styles */
   footer {padding: 50px; background-color: black; height: auto; text-align: center; color: white;}
+  .fa-facebook, .fa-twitter {font-size: 30px; transition-duration: 0.3s;}
+  .fa-facebook:hover, .fa-twitter:hover {color: #F5F5F5;}
 

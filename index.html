@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="static/styles/styles.css">
 </head>
 
-<body>
+<body class="scrollbar-primary">
   <button onclick="topFunction()" id="myBtn" title="Go to top" class="topbtn"><span class="fa fa-angle-up"></button>
   <header>
     <div class="container">
@@ -68,9 +68,8 @@
         <button class="btn btn-primary" onclick="hireMeFunction()">Hire Me</button>
       </div>
       <div class="col text-center my-3">
-        <img src="static/images/profile-picture.png" class="about-me-image">
+        <img src="static/images/profile-img.jpg" class="about-me-image">
       </div>
-
     </div>
   </section>
   <section>
@@ -87,7 +86,9 @@
           <h2>
             Software Developer
           </h2>
-          <h5 class="text-primary">Pythys Software - Kuwait, Kuwait</h5>
+          <a href="https://pythys.com" class="text-decoration-none">
+            <h5 class="text-primary">Pythys Software - Kuwait, Kuwait</h5>
+          </a>
           <small class="text-secondary">March 2021 - Present</small>
           <p>
             • Modified existing software to correct coding errors,  upgrade interfaces and 
@@ -108,7 +109,9 @@
           <h2>
             Python Developer (Intern)
           </h2>
-          <h5 class="text-primary">StarLabs Inc. - Pristina, Kosovo</h5>
+          <a href="https://starlabs.dev" class="text-decoration-none">
+            <h5 class="text-primary">StarLabs Inc. - Pristina, Kosovo</h5>
+          </a>
           <small class="text-secondary">Feb 2021 - May 2021</small>
           <p>
             • Completed a four month internship with the python team at StarLabs  
@@ -128,7 +131,7 @@
           <h2>
             Software Developer (Freelance)
           </h2>
-          <h5 class="text-primary">UpWork, PieceX</h5>
+          <h5 class="text-primary"><a href="https://upwork.com">UpWork</a>, <a href="https://piecex.com">PieceX</a></h5>
           <small class="text-secondary">June 2020 - Jan 2021</small>
           <p>
             • Developed a hospital medication management website using 
@@ -369,10 +372,25 @@
     </div>
   </section>
   <footer>
-    <h4>
-      This is my Portfolio, hope you enjoyed it.
-    </h4>
-    <small class="text-secondary">If you have any questions contact me in the options above.</small>
+    <div class="row">
+      <div class="col-md">
+        <h4>
+          This is my Portfolio, hope you enjoyed it.
+        </h4>
+        <small class="text-secondary">Eol Nuha &copy; copyright</small>
+      </div>
+      <div class="col-md">
+        <h4>
+          Find me in other social media
+        </h4>
+        <a href="https://www.facebook.com/eol.nuha/">
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/Eolnuha">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </div>
+    </div>
   </footer>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="static/styles/fadeInScroll.jQuery.js"></script>
